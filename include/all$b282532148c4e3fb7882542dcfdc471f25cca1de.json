@@ -169,18 +169,17 @@
                 ],
                 "description": "Composer metapackage for Mezcraft provided by Youwe"
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "mezcraft/youwe-b2b-suite",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git",
-                    "reference": "56cb5f3e373b4cd4a89a2de0a053e6b0536ea4e5"
+                    "reference": "0475f414ee39077a0b020b3494c7af9701fdab0c"
                 },
                 "require": {
-                    "composer/composer": "@alpha",
-                    "youwe/magento2-baseconfig": "^2.1.0",
+                    "youwe/magento2-baseconfig": "^2.2.0",
                     "youwe/magento2-category-list": "^1.0.6",
                     "youwe/magento2-ci": "^0.5.5",
                     "youwe/magento2-company": "^1.4.2",
@@ -192,11 +191,52 @@
                     "youwe/magento2-sales-history": "^2.0.2",
                     "youwe/magento2-wishlist": "^0.1.7"
                 },
-                "time": "2018-05-14T13:13:20+00:00",
+                "time": "2018-05-15T14:38:28+00:00",
                 "type": "proprietary",
                 "extra": {
                     "branch-alias": {
-                        "dev-develop": "1.0.x-dev"
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mehmet Uygur",
+                        "email": "m.uygur@youwe.nl"
+                    },
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Composer metapackage for Mezcraft provided by Youwe"
+            },
+            "dev-master": {
+                "name": "mezcraft/youwe-b2b-suite",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git",
+                    "reference": "0475f414ee39077a0b020b3494c7af9701fdab0c"
+                },
+                "require": {
+                    "youwe/magento2-baseconfig": "^2.2.0",
+                    "youwe/magento2-category-list": "^1.0.6",
+                    "youwe/magento2-ci": "^0.5.5",
+                    "youwe/magento2-company": "^1.4.2",
+                    "youwe/magento2-customer-address": "^2.0.1",
+                    "youwe/magento2-erpconnector": "^2.0",
+                    "youwe/magento2-my-products": "^1.0.1",
+                    "youwe/magento2-priceandstock": "dev-2.x-dev",
+                    "youwe/magento2-quick-order": "^1.1.2",
+                    "youwe/magento2-sales-history": "^2.0.2",
+                    "youwe/magento2-wishlist": "^0.1.7"
+                },
+                "time": "2018-05-15T14:38:28+00:00",
+                "type": "proprietary",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
                     }
                 },
                 "authors": [

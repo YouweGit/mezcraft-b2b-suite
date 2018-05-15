@@ -17,6 +17,7 @@
         {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/magento2-wishlist.git"}
     ],
     "require-all": true,
+    "output-html": false,
     "require": {
         "mezcraft/youwe-b2b-suite": "^1.0"
     }

@@ -217,7 +217,7 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git",
-                    "reference": "0475f414ee39077a0b020b3494c7af9701fdab0c"
+                    "reference": "3cea98b58ebe941077163cdc87df07b86a847955"
                 },
                 "require": {
                     "youwe/magento2-baseconfig": "^2.2.0",
@@ -232,7 +232,7 @@
                     "youwe/magento2-sales-history": "^2.0.2",
                     "youwe/magento2-wishlist": "^0.1.7"
                 },
-                "time": "2018-05-15T14:38:28+00:00",
+                "time": "2018-05-16T14:43:27+00:00",
                 "type": "proprietary",
                 "extra": {
                     "branch-alias": {
@@ -1408,12 +1408,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-categorylist.git",
-                    "reference": "e865910398dd686554e83cd6678d402f7b9aee8e"
+                    "reference": "e65e3139502db326edaebfbf2202f5c4cd4c7278"
                 },
                 "require": {
                     "magento/module-catalog": "^101.0.0"
                 },
-                "time": "2018-02-23T13:36:01+00:00",
+                "time": "2018-05-18T12:41:34+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "branch-alias": {
@@ -5475,14 +5475,14 @@
                 ],
                 "description": "Youwe Erp Connector"
             },
-            "1.x-dev": {
+            "1.4.0": {
                 "name": "youwe/magento2-erpconnector",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
-                    "reference": "a3cef89121a772b653ab91769c6aff9f8cc8c567"
+                    "reference": "90988229d5ba04a86774147fb497d1da3b369bb8"
                 },
                 "require": {
                     "nategood/httpful": "^0.2.2",
@@ -5490,7 +5490,54 @@
                     "symfony/yaml": "^2.0.0",
                     "youwe/magento2-company": "^1.0.0"
                 },
-                "time": "2017-11-29T08:02:21+00:00",
+                "time": "2018-05-18T14:58:07+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "app/etc/youwe-erpconnector/di.xml",
+                            "app/etc/youwe-erpconnector/di.xml"
+                        ]
+                    ],
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "1.x-dev": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "90988229d5ba04a86774147fb497d1da3b369bb8"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2018-05-18T14:58:07+00:00",
                 "type": "magento2-component",
                 "extra": {
                     "map": [
@@ -6477,6 +6524,40 @@
                 ],
                 "description": "Gets price and stock data from ERP system"
             },
+            "2.0.0": {
+                "name": "youwe/magento2-priceandstock",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
+                    "reference": "ca66c187d18e55ef51a77bff37d8d34e8294c8c8"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0"
+                },
+                "time": "2018-06-18T06:51:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\PriceAndStock\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ],
+                "description": "Gets price and stock data from ERP system"
+            },
             "dev-master": {
                 "name": "youwe/magento2-priceandstock",
                 "version": "dev-master",
@@ -6484,13 +6565,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
-                    "reference": "698164bae5a3d632c0ebcc3d26191b2122f84e1c"
+                    "reference": "ca66c187d18e55ef51a77bff37d8d34e8294c8c8"
                 },
                 "require": {
                     "youwe/magento2-company": "^1.0",
-                    "youwe/magento2-erpconnector": "^1.2.2"
+                    "youwe/magento2-erpconnector": "^2.0"
                 },
-                "time": "2018-03-21T06:59:30+00:00",
+                "time": "2018-06-18T06:51:19+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7576,6 +7657,66 @@
                 ],
                 "description": "Sales History module"
             },
+            "1.4.0": {
+                "name": "youwe/magento2-sales-history",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "633e533f2e3f6987216c39a4eac67448ab97f25b"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^1.2"
+                },
+                "time": "2018-05-18T15:00:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Sales History module"
+            },
+            "1.4.1": {
+                "name": "youwe/magento2-sales-history",
+                "version": "1.4.1",
+                "version_normalized": "1.4.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "4b98fa7a02a5289a38801e9fbad3a734756b3e6d"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^1.4"
+                },
+                "time": "2018-05-18T15:09:15+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Sales History module"
+            },
             "1.x-dev": {
                 "name": "youwe/magento2-sales-history",
                 "version": "1.x-dev",
@@ -7583,12 +7724,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "f9428dd55e854c3a65046970cd43b41e9577244e"
+                    "reference": "4b98fa7a02a5289a38801e9fbad3a734756b3e6d"
                 },
                 "require": {
-                    "youwe/magento2-erpconnector": "^1.2"
+                    "youwe/magento2-erpconnector": "^1.4"
                 },
-                "time": "2018-03-20T15:30:46+00:00",
+                "time": "2018-05-18T15:09:15+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -7709,36 +7850,6 @@
                     "youwe/magento2-erpconnector": "^2.0"
                 },
                 "time": "2017-10-16T12:32:36+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\SalesHistory\\": ""
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    }
-                ],
-                "description": "Sales History module"
-            },
-            "dev-INTAAAAAKI-381-quotes-and-deliveries": {
-                "name": "youwe/magento2-sales-history",
-                "version": "dev-INTAAAAAKI-381-quotes-and-deliveries",
-                "version_normalized": "dev-INTAAAAAKI-381-quotes-and-deliveries",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "ed0c615b6039afe4feea40f0669c666beafa0a97"
-                },
-                "require": {
-                    "youwe/magento2-erpconnector": "^1.2"
-                },
-                "time": "2018-05-15T12:48:13+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

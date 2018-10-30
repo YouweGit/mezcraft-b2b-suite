@@ -1,0 +1,9 @@
+{
+    "name": "Mezcrafts Satis composer Repository",
+    "type": "project",
+    "minimum-stability": "alpha",
+    "require": {
+        "composer/satis": "1.0.0",
+        "composer/composer": "*"
+    }
+}

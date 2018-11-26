@@ -22,6 +22,7 @@
     ],
     "require-all": true,
     "output-html": false,
+    "output-dir": ".",
     "require": {
         "mezcraft/youwe-b2b-suite": "^1.0"
     }

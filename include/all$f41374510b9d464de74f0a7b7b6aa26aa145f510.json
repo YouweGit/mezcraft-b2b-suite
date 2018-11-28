@@ -8877,13 +8877,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
-                    "reference": "d723b20f54e889b157187e05610d0ec5ffae4c76"
+                    "reference": "8e598ebaa5b51abcec465d35f8d2c00f59466d5f"
                 },
                 "require": {
                     "youwe/magento2-company": "^1.0",
                     "youwe/magento2-erpconnector": "^2.0"
                 },
-                "time": "2018-11-21T15:11:21+00:00",
+                "time": "2018-11-27T14:42:01+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -11360,6 +11360,82 @@
                 ],
                 "description": "Sales History Module"
             },
+            "2.1.1": {
+                "name": "youwe/magento2-sales-history",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "2254ff74b424ef2d3b681e911a414c28a467f121"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^2.4"
+                },
+                "time": "2018-11-26T12:03:08+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    },
+                    {
+                        "name": "Mark van der Werf",
+                        "email": "m.vanderwerf@youwe.nl"
+                    }
+                ],
+                "description": "Sales History Module"
+            },
+            "2.1.2": {
+                "name": "youwe/magento2-sales-history",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "1ee1679744b12b7d7e7ff5c90f9c213347b21a8f"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^2.4"
+                },
+                "time": "2018-11-27T13:42:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    },
+                    {
+                        "name": "Mark van der Werf",
+                        "email": "m.vanderwerf@youwe.nl"
+                    }
+                ],
+                "description": "Sales History Module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-sales-history",
                 "version": "dev-master",
@@ -11367,12 +11443,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "eeb33a25a30b893b37c3cd6ec7611c0993291bec"
+                    "reference": "1ee1679744b12b7d7e7ff5c90f9c213347b21a8f"
                 },
                 "require": {
                     "youwe/magento2-erpconnector": "^2.4"
                 },
-                "time": "2018-11-23T15:22:37+00:00",
+                "time": "2018-11-27T13:42:17+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [

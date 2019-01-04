@@ -433,6 +433,501 @@
                 "description": "Composer metapackage for Mezcraft provided by Youwe"
             }
         },
+        "youwe/magento2-attribute-import": {
+            "1.0.0": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "3fcc24389f30ce63caa12193fc51e7a7731fb3f4"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "dev-master",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^0.1.0"
+                },
+                "time": "2016-09-27T08:38:45+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.1": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "1d1a2446657f410cbe255ff9347a410052dc8181"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "dev-master",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^0.1.0"
+                },
+                "time": "2016-09-30T10:14:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.2": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "4270d072e0f9f2a024ab029a4e09e115bb98372b"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "dev-master",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.0"
+                },
+                "time": "2016-10-03T11:42:44+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.3": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "79ba937d601ecf23588aaa0342a3b565cc4ed2a0"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "dev-master",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.1"
+                },
+                "time": "2016-10-28T08:13:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.4": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "dc98e7da0aebd55dce5cd43fa336d42df8795e6c"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "dev-master",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.1"
+                },
+                "time": "2016-11-21T14:30:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.5": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "1f3d8d4e632daef3228d4955ef87fa3fd58387dd"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.1"
+                },
+                "time": "2016-11-28T11:06:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.6": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "0318dc1f6016040aa3fb9c76bdcb9d097310b98a"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.1"
+                },
+                "time": "2017-05-05T10:46:59+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.0.7": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "881337c3d52804f96945cac3fd6e8847813d4086"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^1.1"
+                },
+                "time": "2017-06-12T15:48:17+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.1.0": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "c6f55d3fd54086cdf1c553ed7fba74d626c8d14c"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2017-11-30T14:52:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.1.1": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "765794435689360ce9f6b6acb8bb901abdb6aa57"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-04-19T13:47:44+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.1.2": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "2270818fe9580c87110fa750943cead0c3b09186"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-09-13T07:13:15+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.1.3": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.1.3",
+                "version_normalized": "1.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "9f12b2f6f5e1aec07c244e598a5b19c6f16ca7cd"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-10-18T07:12:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.1.4": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "ae6d8e6eb30fd9dfa00a3b126001bba2323a194e"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-11-15T10:08:58+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "1.x-dev": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "ae6d8e6eb30fd9dfa00a3b126001bba2323a194e"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-11-15T10:08:58+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.0": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "8f163d0a52be5bcbd5c45dd0622f67518b3d7e97"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2017-10-24T14:41:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.1": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "e7c9f455af4482275cf74ad8aad489af7e987359"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2017-10-25T18:10:14+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.2": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "00f1c364b7b9ef80d33a926a119d475f0cc15605"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2017-11-02T15:04:13+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "dev-master": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "9b6f9c13b66379c41a683e22a32bfeb1b8e2713e"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2018-07-17T12:04:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "dev-feature/magento2.2-compatability-upgrade": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "dev-feature/magento2.2-compatability-upgrade",
+                "version_normalized": "dev-feature/magento2.2-compatability-upgrade",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "bd1044598e22644a3f333bb666776232aa98c9bb"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "php": "~5.5.0|~5.6.0|~7.0.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2017-11-29T12:36:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "dev-fix-empty-mapped-data": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "dev-fix-empty-mapped-data",
+                "version_normalized": "dev-fix-empty-mapped-data",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "d3f2b08fe0dc22340e4f749039244ca694821fdd"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2018-04-19T13:46:39+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            }
+        },
         "youwe/magento2-baseconfig": {
             "1.0.0": {
                 "name": "youwe/magento2-baseconfig",
@@ -5000,34 +5495,6 @@
                     "proprietary"
                 ],
                 "description": "An import module that combines the customer and company import"
-            },
-            "dev-INTAAAAAKI-422-finish-and-test-import": {
-                "name": "youwe/magento2-customer-company-import",
-                "version": "dev-INTAAAAAKI-422-finish-and-test-import",
-                "version_normalized": "dev-INTAAAAAKI-422-finish-and-test-import",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-company-import.git",
-                    "reference": "54ae5320776d7583e4820a2df527300870ac05b3"
-                },
-                "require": {
-                    "youwe/magento2-company-import": "^2.0",
-                    "youwe/magento2-customer-import": "^2.0"
-                },
-                "time": "2018-11-26T15:12:20+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\CustomerCompanyImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "An import module that combines the customer and company import"
             }
         },
         "youwe/magento2-customer-import": {
@@ -5621,6 +6088,40 @@
                 ],
                 "description": "Customer import module"
             },
+            "2.0.2": {
+                "name": "youwe/magento2-customer-import",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-import.git",
+                    "reference": "9f73c7cd9a707e082d5c22adb8661c1f7775a1bb"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2018-12-20T10:57:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    }
+                ],
+                "description": "Customer import module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-customer-import",
                 "version": "dev-master",
@@ -5628,13 +6129,47 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-import.git",
-                    "reference": "691bbb48be7268ec8312cee7868e5db0d01d725f"
+                    "reference": "9f73c7cd9a707e082d5c22adb8661c1f7775a1bb"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2018-11-26T07:30:22+00:00",
+                "time": "2018-12-20T10:57:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    }
+                ],
+                "description": "Customer import module"
+            },
+            "dev-fixing-area-code-issue": {
+                "name": "youwe/magento2-customer-import",
+                "version": "dev-fixing-area-code-issue",
+                "version_normalized": "dev-fixing-area-code-issue",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-import.git",
+                    "reference": "28c3873db5f7bc5dd5442fe4cf31d60bfecc09c6"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2018-12-20T10:54:47+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -11530,126 +12065,14 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "93408e2138e53b04f15a111ef856cb8d6180e17b"
+                    "reference": "555b5593afb2421dd39e1b609deacedb5d4e4607"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-attribute-import": "^2.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2018-07-17T11:42:41+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    },
-                    {
-                        "name": "Martijn Swinkels",
-                        "email": "m.swinkels@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-bugfix/magento2.2-compatibility-fix": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-bugfix/magento2.2-compatibility-fix",
-                "version_normalized": "dev-bugfix/magento2.2-compatibility-fix",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "81a067fa000285827696c62c73215f6c1996c9a3"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "magento/framework": "^100.0.9",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-10-10T08:04:31+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-feature/MAGBBBBBGQ-230-catch-url-rewrite-errors": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-feature/MAGBBBBBGQ-230-catch-url-rewrite-errors",
-                "version_normalized": "dev-feature/MAGBBBBBGQ-230-catch-url-rewrite-errors",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "205c882c8fdf6e5aec41f932459d89c7c4d4b925"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "magento/framework": "^100.0.9",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-04-30T22:09:41+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-feature/configurable-product-import": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-feature/configurable-product-import",
-                "version_normalized": "dev-feature/configurable-product-import",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "3acdbee14a55fea5b10f74ee31206bbd940f13f9"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "magento/framework": "^100.0.9",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-09-14T12:13:14+00:00",
+                "time": "2019-01-02T06:53:50+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -11748,78 +12171,6 @@
                     {
                         "name": "Martijn Swinkels",
                         "email": "m.swinkels@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-fix-max-nesting-issue": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-fix-max-nesting-issue",
-                "version_normalized": "dev-fix-max-nesting-issue",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "3626ddc2cd4904e21a0aefb27d420810c3c71d7c"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "magento/framework": "^100.0.9",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-05-10T14:25:49+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-fixing-split-bunch-duplicate-skus": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-fixing-split-bunch-duplicate-skus",
-                "version_normalized": "dev-fixing-split-bunch-duplicate-skus",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "ffb0e25dbe964538dd944241f5a0df4f3d8b3da6"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "magento/framework": "^100.0.9",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-06-29T12:12:45+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
                     }
                 ],
                 "description": "Product import module"

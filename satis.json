@@ -4,6 +4,7 @@
     "repositories": [
         {"packagist": false},
         {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git"},
+        {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git"},
         {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/magento2-baseconfig.git"},
         {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git"},
         {"type": "git", "url": "ssh://git@source.youwe.nl:7999/mez/magento2-categorylist.git"},

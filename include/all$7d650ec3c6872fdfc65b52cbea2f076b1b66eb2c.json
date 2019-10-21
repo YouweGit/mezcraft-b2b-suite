@@ -385,6 +385,36 @@
                 ],
                 "description": "Composer metapackage for Mezcraft provided by Youwe"
             },
+            "1.0.9": {
+                "name": "mezcraft/youwe-b2b-suite",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git",
+                    "reference": "4e5d9a7aeb8a287a8dfa7012e9ea0ff92fce4d74"
+                },
+                "require": {
+                    "youwe/magento2-attribute-import": "^2.0",
+                    "youwe/magento2-baseconfig": "^2.2",
+                    "youwe/magento2-category-import": "^2.0",
+                    "youwe/magento2-category-list": "^1.0",
+                    "youwe/magento2-company": "^1.4",
+                    "youwe/magento2-customer-address": "^2.0",
+                    "youwe/magento2-customer-company-import": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0",
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0",
+                    "youwe/magento2-my-products-import": "^2.0",
+                    "youwe/magento2-priceandstock": "^2.0",
+                    "youwe/magento2-product-import": "^2.1",
+                    "youwe/magento2-quick-order": "^1.1",
+                    "youwe/magento2-sales-history": "^2.0"
+                },
+                "time": "2019-10-21T06:59:04+00:00",
+                "type": "proprietary",
+                "description": "Composer metapackage for Mezcraft provided by Youwe"
+            },
             "dev-master": {
                 "name": "mezcraft/youwe-b2b-suite",
                 "version": "dev-master",
@@ -392,44 +422,27 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/youwe-b2b-suite.git",
-                    "reference": "ad9e286d2689c0c8cee0e32de88791d7ec911d5d"
+                    "reference": "4e5d9a7aeb8a287a8dfa7012e9ea0ff92fce4d74"
                 },
                 "require": {
-                    "youwe/magento2-attribute-import": "^2.0.1",
-                    "youwe/magento2-baseconfig": "^2.2.0",
-                    "youwe/magento2-category-import": "^2.0.2",
-                    "youwe/magento2-category-list": "^1.0.6",
-                    "youwe/magento2-ci": "^0.5.5",
-                    "youwe/magento2-company": "^1.4.2",
-                    "youwe/magento2-customer-address": "^2.0.1",
+                    "youwe/magento2-attribute-import": "^2.0",
+                    "youwe/magento2-baseconfig": "^2.2",
+                    "youwe/magento2-category-import": "^2.0",
+                    "youwe/magento2-category-list": "^1.0",
+                    "youwe/magento2-company": "^1.4",
+                    "youwe/magento2-customer-address": "^2.0",
                     "youwe/magento2-customer-company-import": "^1.0",
                     "youwe/magento2-erpconnector": "^2.0",
-                    "youwe/magento2-import": "^2.0.4",
-                    "youwe/magento2-my-products": "^1.0.1",
-                    "youwe/magento2-my-products-import": "^2.0.0",
-                    "youwe/magento2-priceandstock": "^2.0.0",
-                    "youwe/magento2-product-import": "^2.1.2",
-                    "youwe/magento2-quick-order": "^1.1.2",
-                    "youwe/magento2-sales-history": "^2.0.2",
-                    "youwe/magento2-wishlist": "^0.1.7"
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0",
+                    "youwe/magento2-my-products-import": "^2.0",
+                    "youwe/magento2-priceandstock": "^2.0",
+                    "youwe/magento2-product-import": "^2.1",
+                    "youwe/magento2-quick-order": "^1.1",
+                    "youwe/magento2-sales-history": "^2.0"
                 },
-                "time": "2018-12-14T15:19:29+00:00",
+                "time": "2019-10-21T06:59:04+00:00",
                 "type": "proprietary",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Mehmet Uygur",
-                        "email": "m.uygur@youwe.nl"
-                    },
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    }
-                ],
                 "description": "Composer metapackage for Mezcraft provided by Youwe"
             }
         },
@@ -901,10 +914,130 @@
                     }
                 }
             },
+            "2.0.4": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "5a1f2dce86d1f51e56090b9f0d133f28609c93b6"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-06-21T09:03:00+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.5": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "d25eac62fad944a154b1c2290558bd5484eef6d5"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-07-17T13:03:40+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.6": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.6",
+                "version_normalized": "2.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "5e68575f477a54f3170c7651edf4b781d9f87c5d"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-10-15T07:00:38+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "2.0.7": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "2.0.7",
+                "version_normalized": "2.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "de4cb5d4417da9e49ac5151343f7ab8491779660"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-10-15T14:36:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
             "dev-master": {
                 "name": "youwe/magento2-attribute-import",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
+                    "reference": "86e3ef762ad8c7e529727670a050c87e13c648e7"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-10-18T06:10:50+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\AttributeImport\\": ""
+                    }
+                }
+            },
+            "dev-3.0-dev": {
+                "name": "youwe/magento2-attribute-import",
+                "version": "dev-3.0-dev",
+                "version_normalized": "dev-3.0-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
@@ -915,80 +1048,6 @@
                     "youwe/magento2-import": "^2.0"
                 },
                 "time": "2019-01-31T14:52:10+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\AttributeImport\\": ""
-                    }
-                }
-            },
-            "dev-feature/fix-merge-conflict": {
-                "name": "youwe/magento2-attribute-import",
-                "version": "dev-feature/fix-merge-conflict",
-                "version_normalized": "dev-feature/fix-merge-conflict",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
-                    "reference": "9ba5f385e0aaa14e839e7e99cee1b25136de7e12"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "youwe/magento2-import": "^2.1.0",
-                    "youwe/magento2-product-import": "^3.0.0"
-                },
-                "time": "2019-02-19T13:06:48+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\AttributeImport\\": ""
-                    }
-                }
-            },
-            "dev-feature/magento2.2-compatability-upgrade": {
-                "name": "youwe/magento2-attribute-import",
-                "version": "dev-feature/magento2.2-compatability-upgrade",
-                "version_normalized": "dev-feature/magento2.2-compatability-upgrade",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
-                    "reference": "bd1044598e22644a3f333bb666776232aa98c9bb"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "php": "~5.5.0|~5.6.0|~7.0.0",
-                    "youwe/magento2-import": "^2.0"
-                },
-                "time": "2017-11-29T12:36:00+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\AttributeImport\\": ""
-                    }
-                }
-            },
-            "dev-fix-empty-mapped-data": {
-                "name": "youwe/magento2-attribute-import",
-                "version": "dev-fix-empty-mapped-data",
-                "version_normalized": "dev-fix-empty-mapped-data",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-attribute-import.git",
-                    "reference": "d3f2b08fe0dc22340e4f749039244ca694821fdd"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "youwe/magento2-import": "^1.2"
-                },
-                "time": "2018-04-19T13:46:39+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2324,6 +2383,40 @@
                     }
                 ]
             },
+            "1.2.1": {
+                "name": "youwe/magento2-category-import",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
+                    "reference": "54a10deb01cf19b3f631106d5c974d66df50ba26"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^1.2"
+                },
+                "time": "2019-08-08T12:28:12+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CategoryImport\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ]
+            },
             "1.x-dev": {
                 "name": "youwe/magento2-category-import",
                 "version": "1.x-dev",
@@ -2331,13 +2424,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
-                    "reference": "a405555328fa12c84f66f7cab3c1c1f3f10a1459"
+                    "reference": "54a10deb01cf19b3f631106d5c974d66df50ba26"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-import": "^1.2"
                 },
-                "time": "2018-11-16T15:18:20+00:00",
+                "time": "2019-08-08T12:28:12+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -2494,10 +2587,78 @@
                     }
                 ]
             },
+            "2.0.4": {
+                "name": "youwe/magento2-category-import",
+                "version": "2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
+                    "reference": "23455e671d1c61b61573cc92422778a75372daef"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-10-18T08:02:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CategoryImport\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ]
+            },
             "dev-master": {
                 "name": "youwe/magento2-category-import",
                 "version": "dev-master",
                 "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
+                    "reference": "23455e671d1c61b61573cc92422778a75372daef"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-10-18T08:02:42+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CategoryImport\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ]
+            },
+            "dev-3.0-dev": {
+                "name": "youwe/magento2-category-import",
+                "version": "dev-3.0-dev",
+                "version_normalized": "dev-3.0-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
@@ -2528,54 +2689,20 @@
                     }
                 ]
             },
-            "dev-MAGBBBBBMD-45-description-import": {
+            "dev-feature/added-indentiation": {
                 "name": "youwe/magento2-category-import",
-                "version": "dev-MAGBBBBBMD-45-description-import",
-                "version_normalized": "dev-MAGBBBBBMD-45-description-import",
+                "version": "dev-feature/added-indentiation",
+                "version_normalized": "dev-feature/added-indentiation",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
-                    "reference": "e4b09326f19201660fa381ac0c5136ef66402ded"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "youwe/magento2-import": "^1.0"
-                },
-                "time": "2017-10-11T13:39:31+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\CategoryImport\\": ""
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Mike Bijnsdorp",
-                        "email": "m.bijnsdorp@youwe.nl"
-                    },
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ]
-            },
-            "dev-bugfix/elasticsearch-fails-null-date": {
-                "name": "youwe/magento2-category-import",
-                "version": "dev-bugfix/elasticsearch-fails-null-date",
-                "version_normalized": "dev-bugfix/elasticsearch-fails-null-date",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-category-import.git",
-                    "reference": "3096520eb53b71385191e3ba7fb80f563a9e1cca"
+                    "reference": "b9088a70db68efb5ea1944725979376c66eb639e"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2017-11-08T11:50:59+00:00",
+                "time": "2019-10-15T14:33:48+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -4501,6 +4628,143 @@
                 ],
                 "description": "A company module."
             },
+            "1.5.3": {
+                "name": "youwe/magento2-company",
+                "version": "1.5.3",
+                "version_normalized": "1.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
+                    "reference": "6dc81ce124db9da22980f60ec49b9e49d07cfde2"
+                },
+                "require": {
+                    "symfony/yaml": "^2.0|~3.4|~4.0"
+                },
+                "time": "2019-03-28T15:51:22+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Company\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "A company module."
+            },
+            "1.5.4": {
+                "name": "youwe/magento2-company",
+                "version": "1.5.4",
+                "version_normalized": "1.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
+                    "reference": "981f0a36a767a1d577671c405c4e3b73f70d4701"
+                },
+                "require": {
+                    "symfony/yaml": "^2.0|~3.4|~4.0"
+                },
+                "time": "2019-04-12T06:12:18+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Company\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "A company module."
+            },
+            "1.5.5": {
+                "name": "youwe/magento2-company",
+                "version": "1.5.5",
+                "version_normalized": "1.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
+                    "reference": "00593f105b550a25076fc856fb42d54a8b6996e4"
+                },
+                "require": {
+                    "symfony/yaml": "^2.0|~3.4|~4.0"
+                },
+                "time": "2019-07-08T08:39:46+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Company\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "A company module."
+            },
+            "1.6.0": {
+                "name": "youwe/magento2-company",
+                "version": "1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
+                    "reference": "842446a6050f292a5c9aeb270d02904d3041f088"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "symfony/yaml": "^2.0|~3.4|~4.0"
+                },
+                "time": "2019-07-18T11:43:02+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Company\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "A company module."
+            },
+            "1.6.1": {
+                "name": "youwe/magento2-company",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
+                    "reference": "bbe70170ce32dfe6dce65eac8661741cfaab7ce0"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "symfony/yaml": "^2.0|^3.0|^4.0"
+                },
+                "time": "2019-08-23T06:46:14+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Company\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "A company module."
+            },
             "dev-master": {
                 "name": "youwe/magento2-company",
                 "version": "dev-master",
@@ -4508,66 +4772,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
-                    "reference": "88adc04c24dab3f688648162054f220da1fb8649"
+                    "reference": "bbe70170ce32dfe6dce65eac8661741cfaab7ce0"
                 },
                 "require": {
-                    "symfony/yaml": "^2.0|~3.4|~4.0"
+                    "magento/framework": ">=101.0",
+                    "symfony/yaml": "^2.0|^3.0|^4.0"
                 },
-                "time": "2019-02-20T09:27:21+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\Company\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "A company module."
-            },
-            "dev-fix/magento-2.3-dependancy-conflict": {
-                "name": "youwe/magento2-company",
-                "version": "dev-fix/magento-2.3-dependancy-conflict",
-                "version_normalized": "dev-fix/magento-2.3-dependancy-conflict",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
-                    "reference": "e57267f155a24af9619b14d851e3f32350303f03"
-                },
-                "require": {
-                    "symfony/yaml": "^2.0|~3.4|~4.0"
-                },
-                "time": "2018-12-10T13:01:02+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\Company\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "A company module."
-            },
-            "dev-mbijnsdorp/composer.json-1543410395206": {
-                "name": "youwe/magento2-company",
-                "version": "dev-mbijnsdorp/composer.json-1543410395206",
-                "version_normalized": "dev-mbijnsdorp/composer.json-1543410395206",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company.git",
-                    "reference": "69f7fda3dac97fabf7682850f19b33d4c2f0d175"
-                },
-                "require": {
-                    "symfony/yaml": "^2.0"
-                },
-                "time": "2018-11-28T13:06:39+00:00",
+                "time": "2019-08-23T06:46:14+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5187,6 +5398,41 @@
                 ],
                 "description": "Company import module"
             },
+            "2.0.1": {
+                "name": "youwe/magento2-company-import",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company-import.git",
+                    "reference": "86856edfc7cd577686e14aae1dae8cd768d2285f"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-06-24T05:47:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CompanyImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    }
+                ],
+                "description": "Company import module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-company-import",
                 "version": "dev-master",
@@ -5194,14 +5440,14 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-company-import.git",
-                    "reference": "a7dcf483e15788dd021471a939d262673b47a52c"
+                    "reference": "86856edfc7cd577686e14aae1dae8cd768d2285f"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-company": "^1.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2017-11-03T08:04:38+00:00",
+                "time": "2019-06-24T05:47:11+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5571,20 +5817,20 @@
                 ],
                 "description": "This module replaces the addresses from Magento with addresses coming from an external system"
             },
-            "dev-master": {
+            "2.2.0": {
                 "name": "youwe/magento2-customer-address",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.2.0",
+                "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-address.git",
-                    "reference": "8991681d70c6a81d916a7c79d3c3778ba2c81a05"
+                    "reference": "3766f4b5ed3bc6a2adc0aaf1cb382b0b7d710d89"
                 },
                 "require": {
                     "youwe/magento2-company": "^1.1",
                     "youwe/magento2-erpconnector": "^2.0"
                 },
-                "time": "2019-02-05T14:22:31+00:00",
+                "time": "2019-07-10T11:52:17+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5597,11 +5843,117 @@
                 "license": [
                     "proprietary"
                 ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
+                "description": "This module replaces the addresses from Magento with addresses coming from an external system"
+            },
+            "2.2.1": {
+                "name": "youwe/magento2-customer-address",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-address.git",
+                    "reference": "43c92ab211a78a97f499dff2e6a9fb00d9d0cd68"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.1",
+                    "youwe/magento2-erpconnector": "^2.0"
+                },
+                "time": "2019-08-02T06:43:05+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerAddress\\": ""
                     }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "This module replaces the addresses from Magento with addresses coming from an external system"
+            },
+            "2.2.2": {
+                "name": "youwe/magento2-customer-address",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-address.git",
+                    "reference": "533a03f23754568ec3bae838112152d453d3167f"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.1",
+                    "youwe/magento2-erpconnector": "^2.0|^3.0"
+                },
+                "time": "2019-08-12T06:21:56+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerAddress\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "This module replaces the addresses from Magento with addresses coming from an external system"
+            },
+            "2.2.3": {
+                "name": "youwe/magento2-customer-address",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-address.git",
+                    "reference": "b3b32a24649aee5b892f6bc03920567d9de0fe36"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.1",
+                    "youwe/magento2-erpconnector": "^2.0|^3.0"
+                },
+                "time": "2019-10-08T09:17:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerAddress\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "This module replaces the addresses from Magento with addresses coming from an external system"
+            },
+            "dev-master": {
+                "name": "youwe/magento2-customer-address",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-address.git",
+                    "reference": "b3b32a24649aee5b892f6bc03920567d9de0fe36"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.1",
+                    "youwe/magento2-erpconnector": "^2.0|^3.0"
+                },
+                "time": "2019-10-08T09:17:16+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerAddress\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
                 ],
                 "description": "This module replaces the addresses from Magento with addresses coming from an external system"
             }
@@ -5635,6 +5987,34 @@
                 ],
                 "description": "An import module that combines the customer and company import"
             },
+            "1.0.1": {
+                "name": "youwe/magento2-customer-company-import",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-company-import.git",
+                    "reference": "f8497a3b3ecd754fce78f543e219526c368244e4"
+                },
+                "require": {
+                    "youwe/magento2-company-import": "^2.0",
+                    "youwe/magento2-customer-import": "^2.0"
+                },
+                "time": "2019-10-16T14:19:37+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerCompanyImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "An import module that combines the customer and company import"
+            },
             "dev-master": {
                 "name": "youwe/magento2-customer-company-import",
                 "version": "dev-master",
@@ -5642,13 +6022,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-company-import.git",
-                    "reference": "8dbd504247f9b393fc32a706899bce6846fa81a2"
+                    "reference": "f8497a3b3ecd754fce78f543e219526c368244e4"
                 },
                 "require": {
                     "youwe/magento2-company-import": "^2.0",
                     "youwe/magento2-customer-import": "^2.0"
                 },
-                "time": "2018-12-14T15:10:28+00:00",
+                "time": "2019-10-16T14:19:37+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6289,6 +6669,40 @@
                 ],
                 "description": "Customer import module"
             },
+            "2.0.3": {
+                "name": "youwe/magento2-customer-import",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-import.git",
+                    "reference": "bcece66fe2a6630745418070f3af14698b8036b0"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-07-04T13:09:06+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\CustomerImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    }
+                ],
+                "description": "Customer import module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-customer-import",
                 "version": "dev-master",
@@ -6296,13 +6710,13 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-customer-import.git",
-                    "reference": "9f73c7cd9a707e082d5c22adb8661c1f7775a1bb"
+                    "reference": "bcece66fe2a6630745418070f3af14698b8036b0"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2018-12-20T10:57:26+00:00",
+                "time": "2019-07-04T13:09:06+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8753,14 +9167,14 @@
                 ],
                 "description": "Youwe Erp Connector"
             },
-            "1.x-dev": {
+            "1.4.2": {
                 "name": "youwe/magento2-erpconnector",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
-                    "reference": "c7cacceaf66b0f8599a2b048f75e464bf3f0bc5d"
+                    "reference": "2061d20b74582602cda83d84e3e9e9f2b40718a6"
                 },
                 "require": {
                     "nategood/httpful": "^0.2.2",
@@ -8768,7 +9182,54 @@
                     "symfony/yaml": "^2.0.0|^3.0|^4.0",
                     "youwe/magento2-company": "^1.0.0"
                 },
-                "time": "2019-02-13T10:02:33+00:00",
+                "time": "2019-06-19T08:04:47+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "map": [
+                        [
+                            "app/etc/youwe-erpconnector/di.xml",
+                            "app/etc/youwe-erpconnector/di.xml"
+                        ]
+                    ],
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "1.x-dev": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "2061d20b74582602cda83d84e3e9e9f2b40718a6"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0|^3.0|^4.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2019-06-19T08:04:47+00:00",
                 "type": "magento2-component",
                 "extra": {
                     "map": [
@@ -9417,6 +9878,294 @@
                 ],
                 "description": "Youwe Erp Connector"
             },
+            "2.5.2": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.5.2",
+                "version_normalized": "2.5.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "449e0a67975f2b4f60258949fda816ec08298d65"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0|~3.4|~4.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2019-04-17T11:49:26+00:00",
+                "type": "magento2-component",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.5.3": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.5.3",
+                "version_normalized": "2.5.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "37f6e1aa88b5fdf4647792e6d8ad94b3ec20d3f8"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0|~3.4|~4.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2019-05-01T11:22:24+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.5.4": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.5.4",
+                "version_normalized": "2.5.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "8f368ea665860af3f59d535674d1f1205f3b6bd9"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0|~3.4|~4.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2019-05-20T07:02:16+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.5.5": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.5.5",
+                "version_normalized": "2.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "8dfb2e029e274076eeb159aa05122c67aa14db3b"
+                },
+                "require": {
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0.0|~3.4|~4.0",
+                    "youwe/magento2-company": "^1.0.0"
+                },
+                "time": "2019-06-18T08:35:13+00:00",
+                "type": "magento2-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    }
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.6.0": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "fc5562ed99f0e6729b08eda82b6fda21659b3c67"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0|~3.4|~4.0",
+                    "youwe/magento2-company": "^1.0"
+                },
+                "time": "2019-07-18T12:07:50+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.6.1": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "1efe794bf95149a336aad3f64b9363c11eeccf3a"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0|~3.0|~4.0",
+                    "youwe/magento2-company": "^1.0"
+                },
+                "time": "2019-08-12T09:39:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "2.x-dev": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "1efe794bf95149a336aad3f64b9363c11eeccf3a"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0|~3.0|~4.0",
+                    "youwe/magento2-company": "^1.0"
+                },
+                "time": "2019-08-12T09:39:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Youwe Erp Connector"
+            },
+            "3.0.0": {
+                "name": "youwe/magento2-erpconnector",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
+                    "reference": "ed136469b62b9dc87197ceebdbf7c86756d664bd"
+                },
+                "require": {
+                    "magento/framework": ">=101.0",
+                    "nategood/httpful": "^0.2.2",
+                    "psr/log": "~1.0",
+                    "symfony/yaml": "^2.0|~3.0|~4.0",
+                    "youwe/magento2-company": "^1.0"
+                },
+                "time": "2019-08-12T11:52:35+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ErpConnector\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Youwe Erp Connector"
+            },
             "dev-master": {
                 "name": "youwe/magento2-erpconnector",
                 "version": "dev-master",
@@ -9435,209 +10184,6 @@
                     "youwe/magento2-company": "^1.0.0"
                 },
                 "time": "2018-08-22T09:26:42+00:00",
-                "type": "magento2-component",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "2.x-dev"
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ErpConnector\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    }
-                ],
-                "description": "Youwe Erp Connector"
-            },
-            "dev-bugfix/changed-price-and-stock-request": {
-                "name": "youwe/magento2-erpconnector",
-                "version": "dev-bugfix/changed-price-and-stock-request",
-                "version_normalized": "dev-bugfix/changed-price-and-stock-request",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
-                    "reference": "e91aed02f1a96d1bda2653d424cd1e908163256a"
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-soap": "*",
-                    "nategood/httpful": "^0.2.2",
-                    "psr/log": "~1.0",
-                    "symfony/yaml": "^2.0.0",
-                    "youwe/magento2-company": "^1.0.0"
-                },
-                "time": "2018-08-22T09:25:27+00:00",
-                "type": "magento2-component",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "2.x-dev"
-                    }
-                },
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ErpConnector\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    }
-                ],
-                "description": "Youwe Erp Connector"
-            },
-            "dev-feature/MAGBBBBBUZ-30-implement-product-import": {
-                "name": "youwe/magento2-erpconnector",
-                "version": "dev-feature/MAGBBBBBUZ-30-implement-product-import",
-                "version_normalized": "dev-feature/MAGBBBBBUZ-30-implement-product-import",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
-                    "reference": "2777cfc4560a1f5af81254330b95c9e1f7c47fe6"
-                },
-                "require": {
-                    "avstudnitz/scopehint2": "^1.0",
-                    "composer/composer": "@alpha",
-                    "magento/product-enterprise-edition": "2.2.6",
-                    "mageplaza/magento-2-blog-extension": "^3.0",
-                    "smile/elasticsuite": "^2.6",
-                    "youwe/magento2-attribute-import": "dev-master",
-                    "youwe/magento2-category-import": "dev-master",
-                    "youwe/magento2-category-list": "^1.0",
-                    "youwe/magento2-company": "^1.4",
-                    "youwe/magento2-customer-address": "^2.0",
-                    "youwe/magento2-erpconnector": "^2.1",
-                    "youwe/magento2-import": "^2.3",
-                    "youwe/magento2-my-products": "^1.0",
-                    "youwe/magento2-priceandstock": "^2.0",
-                    "youwe/magento2-product-import": "dev-master",
-                    "youwe/magento2-quick-order": "^1.1",
-                    "youwe/magento2-sales-history": "^2.0",
-                    "youwe/magento2-theme-frontend-b2b": "^0.1.13"
-                },
-                "replace": {
-                    "amzn/amazon-pay-and-login-magento-2-module": "*",
-                    "dotmailer/dotmailer-magento2-extension": "*",
-                    "klarna/module-core": "*",
-                    "klarna/module-kp": "*",
-                    "klarna/module-ordermanagement": "*",
-                    "magento/module-analytics": "*",
-                    "magento/module-authorizenet": "*",
-                    "magento/module-braintree": "*",
-                    "magento/module-catalog-analytics": "*",
-                    "magento/module-customer-analytics": "*",
-                    "magento/module-cybersource": "*",
-                    "magento/module-dhl": "*",
-                    "magento/module-encryption-key": "*",
-                    "magento/module-fedex": "*",
-                    "magento/module-marketplace": "*",
-                    "magento/module-multishipping": "*",
-                    "magento/module-persistent": "*",
-                    "magento/module-persistent-history": "*",
-                    "magento/module-quote-analytics": "*",
-                    "magento/module-review-analytics": "*",
-                    "magento/module-sales-analytics": "*",
-                    "magento/module-sample-data": "*",
-                    "magento/module-send-friend": "*",
-                    "magento/module-signifyd": "*",
-                    "magento/module-ups": "*",
-                    "magento/module-usps": "*",
-                    "magento/module-webapi-security": "*",
-                    "magento/module-weee": "*",
-                    "magento/module-wishlist-analytics": "*",
-                    "shopialfb/facebook-module": "*",
-                    "temando/module-shipping-m2": "*",
-                    "vertex/module-tax": "*"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "~2.1.1",
-                    "kerckhaert/docker": "^1.0@dev",
-                    "lusitanian/oauth": "~0.8.10",
-                    "pdepend/pdepend": "2.5.0",
-                    "phpmd/phpmd": "@stable",
-                    "phpunit/phpunit": "~6.2.0",
-                    "sebastian/phpcpd": "2.0.4",
-                    "sjparkinson/static-review": "~4.1",
-                    "squizlabs/php_codesniffer": "3.1.1"
-                },
-                "time": "2018-11-13T13:03:16+00:00",
-                "type": "library",
-                "extra": {
-                    "magento-force": "override",
-                    "installer-paths": {
-                        "{$name}/": [
-                            "kerckhaert/docker"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Magento\\Framework\\": "lib/internal/Magento/Framework/",
-                        "Magento\\Setup\\": "setup/src/Magento/Setup/",
-                        "Magento\\": "app/code/Magento/"
-                    },
-                    "psr-0": {
-                        "": [
-                            "app/code/"
-                        ]
-                    },
-                    "files": [
-                        "app/etc/NonComposerComponentRegistration.php"
-                    ],
-                    "exclude-from-classmap": [
-                        "**/dev/**",
-                        "**/update/**",
-                        "**/Test/**"
-                    ]
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
-                        "Magento\\Tools\\": "dev/tools/Magento/Tools/",
-                        "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
-                        "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
-                        "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
-                        "Magento\\ToolkitFramework\\": "dev/tools/performance-toolkit/framework/Magento/ToolkitFramework/"
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "Magento 2 Enterprise Edition - Kerckhaert"
-            },
-            "dev-fix/magento-2.3-dependancy-conflict": {
-                "name": "youwe/magento2-erpconnector",
-                "version": "dev-fix/magento-2.3-dependancy-conflict",
-                "version_normalized": "dev-fix/magento-2.3-dependancy-conflict",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-erpconnector.git",
-                    "reference": "b4c4baa2ce1cd4f04b5e42c88020301fc8608cfe"
-                },
-                "require": {
-                    "nategood/httpful": "^0.2.2",
-                    "psr/log": "~1.0",
-                    "symfony/yaml": "^2.0.0|~3.4|~4.0",
-                    "youwe/magento2-company": "^1.0.0"
-                },
-                "time": "2018-12-10T12:47:27+00:00",
                 "type": "magento2-component",
                 "extra": {
                     "branch-alias": {
@@ -10386,14 +10932,14 @@
                 ],
                 "description": "Import module which serves as the base for other import modules"
             },
-            "dev-master": {
+            "2.0.5": {
                 "name": "youwe/magento2-import",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-import.git",
-                    "reference": "3f054e671d0b90960f0b729113b043795c18dcdd"
+                    "reference": "ac1c2c140fd26da2ef64ea93bf1c909cdcb6f86b"
                 },
                 "require": {
                     "ext-simplexml": "*",
@@ -10401,7 +10947,43 @@
                     "lib-libxml": "*",
                     "psr/log": "~1.0"
                 },
-                "time": "2018-07-26T06:11:22+00:00",
+                "time": "2019-07-25T12:36:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\Import\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    }
+                ],
+                "description": "Import module which serves as the base for other import modules"
+            },
+            "dev-master": {
+                "name": "youwe/magento2-import",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-import.git",
+                    "reference": "ac1c2c140fd26da2ef64ea93bf1c909cdcb6f86b"
+                },
+                "require": {
+                    "ext-simplexml": "*",
+                    "firegento/fastsimpleimport": "^1.0",
+                    "lib-libxml": "*",
+                    "psr/log": "~1.0"
+                },
+                "time": "2019-07-25T12:36:11+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -10660,6 +11242,35 @@
                 ],
                 "description": "Import module for My Products"
             },
+            "2.0.1": {
+                "name": "youwe/magento2-my-products-import",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-my-products-import.git",
+                    "reference": "fadf945e43ca8dff483f4f508ee1b632968f752d"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0"
+                },
+                "time": "2019-09-11T11:38:07+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\MyProductsImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Import module for My Products"
+            },
             "dev-master": {
                 "name": "youwe/magento2-my-products-import",
                 "version": "dev-master",
@@ -10667,14 +11278,101 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-my-products-import.git",
-                    "reference": "c5b72ec7dd66b4e52b7ed59e55da18462939d45e"
+                    "reference": "fadf945e43ca8dff483f4f508ee1b632968f752d"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-import": "^2.0",
                     "youwe/magento2-my-products": "^1.0"
                 },
-                "time": "2017-11-06T12:24:28+00:00",
+                "time": "2019-09-11T11:38:07+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\MyProductsImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Import module for My Products"
+            },
+            "dev-bugfix/set-areacode-admin-is-deprecated": {
+                "name": "youwe/magento2-my-products-import",
+                "version": "dev-bugfix/set-areacode-admin-is-deprecated",
+                "version_normalized": "dev-bugfix/set-areacode-admin-is-deprecated",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-my-products-import.git",
+                    "reference": "f6d0af502e0160d48e73b6664f22cf427ba05d69"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0"
+                },
+                "time": "2019-04-11T13:34:19+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\MyProductsImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Import module for My Products"
+            },
+            "dev-task/bump-version-2-0-1": {
+                "name": "youwe/magento2-my-products-import",
+                "version": "dev-task/bump-version-2-0-1",
+                "version_normalized": "dev-task/bump-version-2-0-1",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-my-products-import.git",
+                    "reference": "29a0b3c0d517f2ada3cbbbc4862b3b796f2a3ea8"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0"
+                },
+                "time": "2019-09-11T11:37:37+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\MyProductsImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Import module for My Products"
+            },
+            "dev-task/bump-version-2-1-0": {
+                "name": "youwe/magento2-my-products-import",
+                "version": "dev-task/bump-version-2-1-0",
+                "version_normalized": "dev-task/bump-version-2-1-0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-my-products-import.git",
+                    "reference": "737a20a3f5627b89c0942b4fb93c6d079e42cc26"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-import": "^2.0",
+                    "youwe/magento2-my-products": "^1.0"
+                },
+                "time": "2019-09-11T11:35:10+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -11245,6 +11943,130 @@
                 ],
                 "description": "Gets price and stock data from ERP system"
             },
+            "2.1.0": {
+                "name": "youwe/magento2-priceandstock",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
+                    "reference": "0d23c015c9b0ecdb3892a25fe20611e7ee5b338b"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0"
+                },
+                "time": "2019-04-17T09:56:09+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\PriceAndStock\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ],
+                "description": "Gets price and stock data from ERP system"
+            },
+            "2.1.1": {
+                "name": "youwe/magento2-priceandstock",
+                "version": "2.1.1",
+                "version_normalized": "2.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
+                    "reference": "49a0dc5fcbde17d4b7830468fcba8f99b48615bb"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0"
+                },
+                "time": "2019-04-23T13:39:20+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\PriceAndStock\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    }
+                ],
+                "description": "Gets price and stock data from ERP system"
+            },
+            "2.1.2": {
+                "name": "youwe/magento2-priceandstock",
+                "version": "2.1.2",
+                "version_normalized": "2.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
+                    "reference": "d26365bbbdf8cfba8c67609bbd392bc11d8db215"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0|^3.0"
+                },
+                "time": "2019-08-12T06:24:36+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\PriceAndStock\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Gets price and stock data from ERP system"
+            },
+            "2.1.3": {
+                "name": "youwe/magento2-priceandstock",
+                "version": "2.1.3",
+                "version_normalized": "2.1.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
+                    "reference": "ae7c778a509682af496e29c5e72a7f0d8fcf38eb"
+                },
+                "require": {
+                    "youwe/magento2-company": "^1.0",
+                    "youwe/magento2-erpconnector": "^2.0|^3.0"
+                },
+                "time": "2019-10-15T13:44:57+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\PriceAndStock\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Gets price and stock data from ERP system"
+            },
             "dev-master": {
                 "name": "youwe/magento2-priceandstock",
                 "version": "dev-master",
@@ -11267,89 +12089,6 @@
                     "psr-4": {
                         "Youwe\\PriceAndStock\\": ""
                     }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ],
-                "description": "Gets price and stock data from ERP system"
-            },
-            "dev-INTAAAAAKI-423-javascript-compatible": {
-                "name": "youwe/magento2-priceandstock",
-                "version": "dev-INTAAAAAKI-423-javascript-compatible",
-                "version_normalized": "dev-INTAAAAAKI-423-javascript-compatible",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
-                    "reference": "d813bef2c1e3d32d1b4eeda5c46d7f50d2c11554"
-                },
-                "require": {
-                    "youwe/magento2-company": "^1.0",
-                    "youwe/magento2-erpconnector": "^2.0"
-                },
-                "time": "2018-11-29T13:31:10+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\PriceAndStock\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    }
-                ],
-                "description": "Gets price and stock data from ERP system"
-            },
-            "dev-INTAAAE-710_test-method-b2b-module": {
-                "name": "youwe/magento2-priceandstock",
-                "version": "dev-INTAAAE-710_test-method-b2b-module",
-                "version_normalized": "dev-INTAAAE-710_test-method-b2b-module",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-priceandstock.git",
-                    "reference": "9f85e957b4db08f2bf0c26332a7090c4a0b12061"
-                },
-                "require": {
-                    "youwe/magento2-company": "^1.0",
-                    "youwe/magento2-erpconnector": "^2.0"
-                },
-                "time": "2018-12-13T11:56:57+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\PriceAndStock\\": ""
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "Test/"
-                    ],
-                    "files": [
-                        "Test/Unit/Model/LoaderTest.php",
-                        "Test/Unit/Model/FrontendTest.php",
-                        "Test/Unit/Model/ConfigTest.php",
-                        "Test/Unit/Block/Js/PriceAndStockTest.php",
-                        "Test/Unit/Model/ManagementTest.php",
-                        "Test/Unit/Controller/Fetch/PriceAndStockTest.php",
-                        "Test/Unit/Model/Frontend/StockCodeAndTextTest.php",
-                        "Test/Unit/TestCaseHelper.php"
-                    ]
                 },
                 "license": [
                     "proprietary"
@@ -12311,6 +13050,45 @@
                 ],
                 "description": "Product import module"
             },
+            "2.1.4": {
+                "name": "youwe/magento2-product-import",
+                "version": "2.1.4",
+                "version_normalized": "2.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
+                    "reference": "cd31f9be60e64c406b933721ea093db0fe70e362"
+                },
+                "require": {
+                    "firegento/fastsimpleimport": "^1.0",
+                    "youwe/magento2-attribute-import": "^2.0",
+                    "youwe/magento2-import": "^2.0"
+                },
+                "time": "2019-06-18T08:37:26+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\ProductImport\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Bogdan Lewinsky",
+                        "email": "b.lewinsky@youwe.nl"
+                    },
+                    {
+                        "name": "Martijn Swinkels",
+                        "email": "m.swinkels@youwe.nl"
+                    }
+                ],
+                "description": "Product import module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-product-import",
                 "version": "dev-master",
@@ -12318,14 +13096,14 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "ef200ad549bc854c45896581e25513a1abb6da9e"
+                    "reference": "5159b05ea3c68e7d2f79b2da311bed0773f57547"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-attribute-import": "^2.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2019-02-07T07:17:21+00:00",
+                "time": "2019-07-08T13:24:47+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -12350,60 +13128,21 @@
                 ],
                 "description": "Product import module"
             },
-            "dev-feature/tier-prices-import": {
+            "dev-3.0-dev": {
                 "name": "youwe/magento2-product-import",
-                "version": "dev-feature/tier-prices-import",
-                "version_normalized": "dev-feature/tier-prices-import",
+                "version": "dev-3.0-dev",
+                "version_normalized": "dev-3.0-dev",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "6e84d6300941fd86b9cd1c1aaa06570afbd4061e"
+                    "reference": "193af14136a0d24e881493d21277241b7ccc8ec9"
                 },
                 "require": {
                     "firegento/fastsimpleimport": "^1.0",
                     "youwe/magento2-attribute-import": "^2.0",
                     "youwe/magento2-import": "^2.0"
                 },
-                "time": "2017-11-08T10:22:45+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\ProductImport\\": ""
-                    }
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "authors": [
-                    {
-                        "name": "Bogdan Lewinsky",
-                        "email": "b.lewinsky@youwe.nl"
-                    },
-                    {
-                        "name": "Martijn Swinkels",
-                        "email": "m.swinkels@youwe.nl"
-                    }
-                ],
-                "description": "Product import module"
-            },
-            "dev-feature/validation-and-logging-extension": {
-                "name": "youwe/magento2-product-import",
-                "version": "dev-feature/validation-and-logging-extension",
-                "version_normalized": "dev-feature/validation-and-logging-extension",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-product-import.git",
-                    "reference": "20cc1ff1e69292e16e633e39100c8af04c680925"
-                },
-                "require": {
-                    "firegento/fastsimpleimport": "^1.0",
-                    "youwe/magento2-attribute-import": "^1.0",
-                    "youwe/magento2-import": "^1.1"
-                },
-                "time": "2017-10-18T09:05:41+00:00",
+                "time": "2019-04-10T10:23:55+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -12641,20 +13380,20 @@
                 },
                 "description": "Youwe Quick Order"
             },
-            "dev-master": {
+            "1.3.0": {
                 "name": "youwe/magento2-quick-order",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-quick-order.git",
-                    "reference": "785f8bd0eaa98f09451778445ed7acc300b1bfbc"
+                    "reference": "06d7c58ac153df71bf98f85811af2b5be3d4ff2e"
                 },
                 "require": {
                     "magento/module-checkout": ">=100.1",
                     "phpoffice/phpexcel": "^1.8"
                 },
-                "time": "2018-11-13T12:51:23+00:00",
+                "time": "2019-04-01T11:28:09+00:00",
                 "type": "magento2-module",
                 "extra": {
                     "branch-alias": {
@@ -12671,26 +13410,46 @@
                 },
                 "description": "Youwe Quick Order"
             },
-            "dev-MAGBBBBBPF-137-fixing-errors": {
+            "1.3.1": {
                 "name": "youwe/magento2-quick-order",
-                "version": "dev-MAGBBBBBPF-137-fixing-errors",
-                "version_normalized": "dev-MAGBBBBBPF-137-fixing-errors",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-quick-order.git",
-                    "reference": "9d2f377f12bbc246c2b6927add7dd4323042e0b0"
+                    "reference": "7e9e99ac069737123f8920d702bf862a38fa6c16"
                 },
                 "require": {
                     "magento/module-checkout": ">=100.1",
                     "phpoffice/phpexcel": "^1.8"
                 },
-                "time": "2018-03-23T09:37:33+00:00",
+                "time": "2019-10-02T08:35:01+00:00",
                 "type": "magento2-module",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.x-dev"
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\QuickOrder\\": ""
                     }
                 },
+                "description": "Youwe Quick Order"
+            },
+            "dev-master": {
+                "name": "youwe/magento2-quick-order",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-quick-order.git",
+                    "reference": "7e9e99ac069737123f8920d702bf862a38fa6c16"
+                },
+                "require": {
+                    "magento/module-checkout": ">=100.1",
+                    "phpoffice/phpexcel": "^1.8"
+                },
+                "time": "2019-10-02T08:35:01+00:00",
+                "type": "magento2-module",
                 "autoload": {
                     "files": [
                         "registration.php"
@@ -13863,6 +14622,92 @@
                 ],
                 "description": "Sales History Module"
             },
+            "2.2.1": {
+                "name": "youwe/magento2-sales-history",
+                "version": "2.2.1",
+                "version_normalized": "2.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "a580bfb24758f1b4173ecf816dff09a1e03ffd1c"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^2.4"
+                },
+                "time": "2019-06-25T13:10:46+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Mike Bijnsdorp",
+                        "email": "m.bijnsdorp@youwe.nl"
+                    },
+                    {
+                        "name": "Kees Hoogerheide",
+                        "email": "k.hoogerheide@youwe.nl"
+                    },
+                    {
+                        "name": "Mark van der Werf",
+                        "email": "m.vanderwerf@youwe.nl"
+                    }
+                ],
+                "description": "Sales History Module"
+            },
+            "2.2.2": {
+                "name": "youwe/magento2-sales-history",
+                "version": "2.2.2",
+                "version_normalized": "2.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "b2eb6fa6efb9013b5f10807385b780f4137b4780"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^2.4|^3.0"
+                },
+                "time": "2019-08-12T06:37:41+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "description": "Sales History Module"
+            },
+            "2.2.3": {
+                "name": "youwe/magento2-sales-history",
+                "version": "2.2.3",
+                "version_normalized": "2.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
+                    "reference": "0de0e3b049b81174e5e50b92a7b70509a60015f1"
+                },
+                "require": {
+                    "youwe/magento2-erpconnector": "^2.4|^3.0"
+                },
+                "time": "2019-09-30T12:08:09+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Youwe\\SalesHistory\\": ""
+                    }
+                },
+                "description": "Sales History Module"
+            },
             "dev-master": {
                 "name": "youwe/magento2-sales-history",
                 "version": "dev-master",
@@ -13870,12 +14715,12 @@
                 "source": {
                     "type": "git",
                     "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "baf318819c039c30d4b25459d27ea8835e5ba419"
+                    "reference": "0de0e3b049b81174e5e50b92a7b70509a60015f1"
                 },
                 "require": {
-                    "youwe/magento2-erpconnector": "^2.4"
+                    "youwe/magento2-erpconnector": "^2.4|^3.0"
                 },
-                "time": "2019-01-22T14:29:57+00:00",
+                "time": "2019-09-30T12:08:09+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -13885,134 +14730,6 @@
                         "Youwe\\SalesHistory\\": ""
                     }
                 },
-                "authors": [
-                    {
-                        "name": "Mike Bijnsdorp",
-                        "email": "m.bijnsdorp@youwe.nl"
-                    },
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    },
-                    {
-                        "name": "Mark van der Werf",
-                        "email": "m.vanderwerf@youwe.nl"
-                    }
-                ],
-                "description": "Sales History Module"
-            },
-            "dev-feature/MAGBBBBBUZ-145-my-account-page-keeps-loading": {
-                "name": "youwe/magento2-sales-history",
-                "version": "dev-feature/MAGBBBBBUZ-145-my-account-page-keeps-loading",
-                "version_normalized": "dev-feature/MAGBBBBBUZ-145-my-account-page-keeps-loading",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "34deed0689bce1bc2507af5acb26599c8223cae7"
-                },
-                "require": {
-                    "youwe/magento2-erpconnector": "^2.4"
-                },
-                "time": "2019-01-10T12:48:33+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\SalesHistory\\": ""
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Mike Bijnsdorp",
-                        "email": "m.bijnsdorp@youwe.nl"
-                    },
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    },
-                    {
-                        "name": "Mark van der Werf",
-                        "email": "m.vanderwerf@youwe.nl"
-                    }
-                ],
-                "description": "Sales History Module"
-            },
-            "dev-feature/add-quote-and-delivery-options": {
-                "name": "youwe/magento2-sales-history",
-                "version": "dev-feature/add-quote-and-delivery-options",
-                "version_normalized": "dev-feature/add-quote-and-delivery-options",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "6d556649fbd42bcc4c3651e9ec0c724e1f3e1740"
-                },
-                "require": {
-                    "youwe/magento2-erpconnector": "^2.4"
-                },
-                "time": "2018-11-23T15:04:08+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\SalesHistory\\": ""
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Mike Bijnsdorp",
-                        "email": "m.bijnsdorp@youwe.nl"
-                    },
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    },
-                    {
-                        "name": "Mark van der Werf",
-                        "email": "m.vanderwerf@youwe.nl"
-                    }
-                ],
-                "description": "Sales History Module"
-            },
-            "dev-release/version-2.1": {
-                "name": "youwe/magento2-sales-history",
-                "version": "dev-release/version-2.1",
-                "version_normalized": "dev-release/version-2.1",
-                "source": {
-                    "type": "git",
-                    "url": "ssh://git@source.youwe.nl:7999/mez/magento2-sales-history.git",
-                    "reference": "2365e0f0a4ead2ba92e5095f8597273720b03921"
-                },
-                "require": {
-                    "youwe/magento2-erpconnector": "^2.2"
-                },
-                "time": "2018-11-21T09:16:30+00:00",
-                "type": "magento2-module",
-                "autoload": {
-                    "files": [
-                        "registration.php"
-                    ],
-                    "psr-4": {
-                        "Youwe\\SalesHistory\\": ""
-                    }
-                },
-                "authors": [
-                    {
-                        "name": "Mike Bijnsdorp",
-                        "email": "m.bijnsdorp@youwe.nl"
-                    },
-                    {
-                        "name": "Kees Hoogerheide",
-                        "email": "k.hoogerheide@youwe.nl"
-                    },
-                    {
-                        "name": "Mark van der Werf",
-                        "email": "m.vanderwerf@youwe.nl"
-                    }
-                ],
                 "description": "Sales History Module"
             }
         },
